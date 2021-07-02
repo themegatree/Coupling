@@ -1,8 +1,6 @@
 
 const move = (vehicle) => {
- 
-    return vehicle.message;
-  
+    return vehicle.message();
 }
 
 module.exports = move;
